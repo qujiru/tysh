@@ -1,6 +1,8 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
+#include<unistd.h>
+#include<sys/wait.h>
 #include"tysh_builtins.h"
 #define TYSH_BUF_SIZE 32
 char *tysh_read(){

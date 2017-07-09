@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<unistd.h>
 #include"tysh_builtins.h"
 char *builtin_str[] = {
     "cd",
